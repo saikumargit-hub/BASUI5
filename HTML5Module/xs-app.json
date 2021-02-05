@@ -1,0 +1,23 @@
+{
+    "welcomeFile": "/index.html",
+    "authenticationMethod": "none",
+    "logout": {
+        "logoutEndpoint": "/do/logout"
+    },
+    "routes": [
+        {
+            "source": "sap/opu/odata",
+            "target": "$1",
+            "service": "html5-apps-repo-rt",
+            "authenticationType": "None",
+            "csrfProtection": false,
+            "destination": "AFD"
+        },
+        {
+            "source": "^(.*)$",
+            "target": "$1",
+            "service": "html5-apps-repo-rt",
+            "authenticationType": "xsuaa"
+        }
+    ]
+}

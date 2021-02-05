@@ -1,0 +1,14 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ns.HTML5Module.controller.Main" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="BAS Demo Application">
+                <content>
+       
+        
+        </content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
