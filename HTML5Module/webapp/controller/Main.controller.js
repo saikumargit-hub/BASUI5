@@ -11,9 +11,10 @@ sap.ui.define([
           return Controller.extend("ns.HTML5Module.controller.Main", {
                onInit: function () {
                     this.LocalJSONModel = new jsonmodel({
-                         empTableModel: []
-                    });
+                         empTableModel: [] 
+                    }); 
                     this.getView().setModel(this.LocalJSONModel, "localModel");
+                    thi.i18nModel = this.getOwnerComponent().getModel("i18n");
                }
           });
      });
