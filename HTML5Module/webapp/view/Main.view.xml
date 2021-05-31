@@ -5,7 +5,7 @@
 				<Page id="page" title="BAS Demo Application">
                 <content>
        
-        
+        <Text text="Sai Kumar"></Text>
         </content>
 				</Page>
 			</pages>
